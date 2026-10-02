@@ -94,7 +94,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .background(Color.White.copy(alpha = 0.15f)),
                 contentAlignment = Alignment.Center
             ) {
+                val imgMoon = painterResource(id = R.drawable.moon)
 
+                Image(
+                    painter = imgMoon,
+                    contentDescription = "Foto Bulan",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(200.dp)
+                        .clip(CircleShape)
+                )
             }
         }
     }
