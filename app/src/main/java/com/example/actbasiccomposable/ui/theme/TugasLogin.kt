@@ -65,6 +65,26 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentDescription = "Ikon Bintang Silver",
                 modifier = Modifier.size(110.dp)
             )
+            Spacer(modifier = Modifier.height(25.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFFF8A8A)
+            )
+            Text(
+                text = "Lailansyahda Azalia",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+            Text(
+                text = "20240140250",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.LightGray
+            )
         }
     }
 }
