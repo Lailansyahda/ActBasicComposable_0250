@@ -108,3 +108,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Preview(showBackground = true, device = "id:pixel_3a_xl")
+@Composable
+fun TugasLoginPreview() {
+    TugasLogin()
+}
