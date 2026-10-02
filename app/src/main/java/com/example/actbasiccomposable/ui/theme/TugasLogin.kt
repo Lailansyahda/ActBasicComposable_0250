@@ -56,6 +56,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 14.sp,
                 color = Color.LightGray
             )
+            val imgStar = painterResource(id = R.drawable.star)
+
+            Spacer(modifier = Modifier.height(25.dp))
+
+            Image(
+                painter = imgStar,
+                contentDescription = "Ikon Bintang Silver",
+                modifier = Modifier.size(110.dp)
+            )
         }
     }
 }
