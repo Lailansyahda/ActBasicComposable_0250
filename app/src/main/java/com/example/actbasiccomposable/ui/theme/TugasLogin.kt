@@ -23,3 +23,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    val bgMaroon = painterResource(id = R.drawable.bg_maroon)
+
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopCenter
+    ) {
+        Image(
+            painter = bgMaroon,
+            contentDescription = "Background Maroon",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+    }
+}
